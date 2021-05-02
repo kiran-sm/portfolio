@@ -119,4 +119,7 @@ html {
   body {
     overflow-x: hidden !important;
   }
+  .px {
+    padding: 0 5%;
+  }
 }
