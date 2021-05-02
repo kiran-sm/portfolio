@@ -1,0 +1,122 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  overflow-x: hidden !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header-background {
+  background-image: url("../Images/sky05.jpg");
+  /* background-color: #9cdae7; */
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.content-center {
+  text-align: center;
+}
+
+.kiran-text {
+  font-family: "Great Vibes", cursive;
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+.pt-10 {
+  padding-top: 10%;
+}
+
+.auto-text {
+  font-family: "Orelega One", cursive;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.bold-text {
+  color: red;
+  /* font-weight: bold; */
+}
+
+.hdr-btn-txt {
+  font-family: "Lato", sans-serif;
+  background-color: #a39be8ba;
+  font-weight: 700;
+  font-size: 2em;
+  border-radius: 0px 24px 0px 24px;
+  padding: 0% 5%;
+}
+
+.kite-img {
+  height: 30%;
+}
+
+/* .bg-blue {
+  background-color: #4caec9;
+} */
+
+.glide-img {
+  height: 70%;
+}
+
+.bg-smoke {
+  background-color: #f5f5f5;
+}
+
+.cofee-img {
+  height: 10%;
+}
+
+.about-me {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 3.5em;
+}
+
+.about-descriptiion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #404e4df5;
+}
+
+.bg-02 {
+  background-image: radial-gradient(rgba(255, 0, 0, 0), #9bd9e6f7);
+}
+
+.footer-bg {
+  background-image: url("../Images/ft02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-text {
+  font-size: 2em;
+}
+
+.footer-txt {
+  color: #000000;
+}
+
+@media (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+}
