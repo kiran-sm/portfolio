@@ -59,12 +59,3 @@ var TxtRotate = function(el, toRotate, period) {
   };
 // animation text ends here
 
-// document.querySelector(".resume").addEventListener(onclick).src
-
-// document.querySelector(".resume").addEventListener(onclick).src="../Images/dwnld.gif";
-
-// function before(){
-//   document.getElementById('myImage')
-//   .src="../Images/dwnld.gif";
-  
-// }
