@@ -3,19 +3,25 @@
   margin: 0;
 } */
 
-body {
+/* body {
   overflow-x: hidden !important;
-}
+} */
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden !important;
 }
 
 .header-background {
   background-image: url("../Images/sky05.jpg");
   /* background-color: #9cdae7; */
-  background-repeat: repeat-x;
-  background-size: auto;
+  /* background-repeat: repeat-x;
+  background-size: auto; */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .content-center {
