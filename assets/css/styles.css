@@ -130,3 +130,17 @@ body {
     padding: 0 5%;
   }
 }
+
+.resume :hover {
+  cursor: pointer;
+  transform: translate(0, 0.2em);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.show {
+  display: none;
+}
