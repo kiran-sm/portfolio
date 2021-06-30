@@ -60,7 +60,7 @@ var TxtRotate = function(el, toRotate, period) {
 // animation text ends here
 
 function changeImage () {
-document.querySelector('.hide').style.display='none';
+document.querySelector('.hide01').style.display='none';
 document.querySelector('.show').style.display='inline-block';
 
  
