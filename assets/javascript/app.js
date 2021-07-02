@@ -59,13 +59,15 @@ var TxtRotate = function(el, toRotate, period) {
   };
 // animation text ends here
 
+const resumeImage = document.querySelector('.resume')
+
 function changeImage () {
 document.querySelector('.img-hide').style.display='none';
-document.querySelector('.show').style.display='inline-block';
+document.querySelector('.show').style.display='inline';
 
  
 
 
 }
-
-document.addEventListener('click',changeImage)
+// const resumeBody = document.querySelector('.img-hide');
+resumeImage.addEventListener('click',changeImage);
