@@ -144,3 +144,48 @@ button {
 .show {
   display: none;
 }
+
+.project-text {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.project-text p a {
+  color: black;
+}
+
+.project-text p a:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.bg-project-01 {
+  background: #607d8b;
+  color: #000000;
+}
+
+.bg-project-02 {
+  background: #444444;
+  color: #f5f5f5;
+}
+
+.bg-project-03 {
+  background: #c7770f;
+  color: #251c1c;
+}
+
+.bg-project-04 {
+  background: #96999d;
+  color: #251c1c;
+}
+
+.bg-project-05 {
+  background: #e1d4f4;
+  color: #251c1c;
+}
+
+.bg-project-06 {
+  background: #e7f7b0;
+  color: #251c1c;
+}
