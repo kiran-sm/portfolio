@@ -64,6 +64,11 @@ const resumeImage = document.querySelector('.resume')
 function changeImage () {
 document.querySelector('.img-hide').style.display='none';
 document.querySelector('.show').style.display='inline';
+setTimeout(() => {  
+//   document.querySelector('.img-hide').style.display='inline';
+// document.querySelector('.show').style.display='none';
+location.reload();
+ }, 10000);
 
  
 
